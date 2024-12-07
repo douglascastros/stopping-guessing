@@ -1,0 +1,23 @@
+.display-prop {
+    font-family: 'Fira Code', Arial, Helvetica, sans-serif;
+    color: #FFF;
+}
+
+.display-prop-item {
+    height: 150px;
+    width: 33.333%;
+    padding-top: 10px;
+    padding-left: 10px;
+}
+
+.display-prop-item.-first {
+    background-color: #F25A70;
+}
+
+.display-prop-item.-second {
+    background-color: #7C5E99;
+}
+
+.display-prop-item.-third {
+    background-color: #4C5B84;
+}

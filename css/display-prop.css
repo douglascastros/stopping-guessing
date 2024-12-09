@@ -4,10 +4,8 @@
 }
 
 .display-prop-item {
-    height: 150px;
     width: 33.333%;
-    padding-top: 10px;
-    padding-left: 10px;
+    padding: 25px 0px 25px 10px;
 }
 
 .display-prop-item.-first {

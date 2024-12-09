@@ -10,34 +10,64 @@
     <link href="https://fonts.googleapis.com/css2?family=Fira+Code:wght@300;500&display=swap" rel="stylesheet">
     <link rel="stylesheet" href="css/reset.css">
     <link rel="stylesheet" href="css/main.css">
-    <link rel="stylesheet" href="css/section.css">
+    <link rel="stylesheet" href="css/title.css">
     <link rel="stylesheet" href="css/code.css">
     <link rel="stylesheet" href="css/display-prop.css">
 </head>
 
 <body>
+    <h2 class="title">Display Property</h2>
+
     <section class="display-prop" title="Display Property">
-        <h2 class="section-title">Display Property</h2>
         <div class="display-prop-item -first">
-            <span>First</span>
+            <span>.display-prop-item -first</span>
         </div>
         <div class="display-prop-item -second">
-            <span>Second</span>
+            <span>.display-prop-item -second</span>
         </div>
         <div class="display-prop-item -third">
-            <span>Third</span>
-        </div>
-        <div class="display-sample">
-            <pre class="code-formatted">
-                <code>
-                    .display-prop-item {
-                        width: 33.333%;
-                        padding: 25px 0px 25px 10px;
-                    }
-                </code>
-            </pre>
+            <span>.display-prop-item -third</span>
         </div>
     </section>
+
+    <section class="sample" title="Display Property Sample">
+        <pre class="css-formatted">
+            <code>.display-prop-item {</code>
+            <code class="code">width: 33.333%;</code>
+            <code class="code">height: 50px;<code>
+            <code class="code">padding-left: 5px;<code></code>
+            <code class="code">padding-top: 5px;<code></code>
+            <code class="code"> display: block;<code></code>
+            <code>}</code>
+        </pre>
+        <fieldset>
+            <legend>Select a display property</legend>
+            <input type="radio" id="display-block" name="display-block" checked>
+            <label for="display-block">display: block</label>
+            <input type="radio" id="display-inline" name="display-inline">
+            <label for="display-inline">display: inline</label>
+        </fieldset>
+    </section>
+
+    <script type="text/javascript">
+        document.getElementById('display-inline').addEventListener('click', function (e) {
+            let all = document.getElementsByClassName('display-prop-item');
+
+            all[0].style.setProperty('display', 'inline');
+            all[1].style.setProperty('display', 'inline');
+            all[2].style.setProperty('display', 'inline');
+
+        });
+
+        document.getElementById('display-block').addEventListener('click', function (e) {
+            let all = document.getElementsByClassName('display-prop-item');
+
+            all[0].style.setProperty('display', 'block');
+            all[1].style.setProperty('display', 'block');
+            all[2].style.setProperty('display', 'block');
+
+        });
+    </script>
 </body>
 
 </html>

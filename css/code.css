@@ -1,7 +1,13 @@
-.code-formatted {
-    font-weight: 100;
-    padding-top: 10px;
+.css-formatted {
+    padding-top: 15px;
+    padding-left: 10px;
     font-size: 12px;
-    line-height: 16px;
+    font-weight: 100;
+    line-height: 18px;
     color: #D8D827;
+    white-space: pre-line;
+}
+
+.code {
+    padding-left: 20px
 }

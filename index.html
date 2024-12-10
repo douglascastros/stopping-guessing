@@ -42,44 +42,21 @@
         <fieldset class="options">
             <legend>select a display property</legend>
             <div class="radio">
-                <input type="radio" id="display-block" name="display-property" checked>
+                <input type="radio" id="display-block" name="display-property" value="block" checked>
                 <label for="display-block">display: block</label>
             </div>
             <div class="radio">
-                <input type="radio" id="display-inline" name="display-property">
+                <input type="radio" id="display-inline" name="display-property" value="inline">
                 <label for="display-inline">display: inline</label>
             </div>
             <div class="radio">
-                <input type="radio" id="display-inline-block" name="display-property">
+                <input type="radio" id="display-inline-block" name="display-property" value="inline-block">
                 <label for="display-inline-block">display: inline-block</label>
             </div>
         </fieldset>
     </section>
 
-
-
-
-
-
-    <script type="text/javascript">
-        document.getElementById('display-inline').addEventListener('click', function (e) {
-            let all = document.getElementsByClassName('display-prop-item');
-
-            all[0].style.setProperty('display', 'inline');
-            all[1].style.setProperty('display', 'inline');
-            all[2].style.setProperty('display', 'inline');
-
-        });
-
-        document.getElementById('display-block').addEventListener('click', function (e) {
-            let all = document.getElementsByClassName('display-prop-item');
-
-            all[0].style.setProperty('display', 'block');
-            all[1].style.setProperty('display', 'block');
-            all[2].style.setProperty('display', 'block');
-
-        });
-    </script>
+    <script type="text/javascript" src="js/display-property.js"></script>
 </body>
 
 </html>

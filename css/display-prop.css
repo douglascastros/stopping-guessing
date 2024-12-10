@@ -3,11 +3,10 @@
 }
 
 .display-prop-item {
+    display: block;
     width: 33.333%;
     height: 50px;
-    /* padding-left: 5px; */
     padding-top: 5px;
-    display: block;
     font-weight: 300;
     font-size: 14px
 }

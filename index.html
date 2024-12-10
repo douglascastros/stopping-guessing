@@ -12,6 +12,7 @@
     <link rel="stylesheet" href="css/main.css">
     <link rel="stylesheet" href="css/title.css">
     <link rel="stylesheet" href="css/code.css">
+    <link rel="stylesheet" href="css/options.css">
     <link rel="stylesheet" href="css/display-prop.css">
 </head>
 
@@ -33,21 +34,32 @@
     <section class="sample" title="Display Property Sample">
         <pre class="css-formatted">
             <code>.display-prop-item {</code>
+            <code class="code">display: block;</code>
             <code class="code">width: 33.333%;</code>
-            <code class="code">height: 50px;<code>
-            <code class="code">padding-left: 5px;<code></code>
-            <code class="code">padding-top: 5px;<code></code>
-            <code class="code"> display: block;<code></code>
+            <code class="code">height: 50px;</code>
             <code>}</code>
         </pre>
-        <fieldset>
-            <legend>Select a display property</legend>
-            <input type="radio" id="display-block" name="display-block" checked>
-            <label for="display-block">display: block</label>
-            <input type="radio" id="display-inline" name="display-inline">
-            <label for="display-inline">display: inline</label>
+        <fieldset class="options">
+            <legend>select a display property</legend>
+            <div class="radio">
+                <input type="radio" id="display-block" name="display-property" checked>
+                <label for="display-block">display: block</label>
+            </div>
+            <div class="radio">
+                <input type="radio" id="display-inline" name="display-property">
+                <label for="display-inline">display: inline</label>
+            </div>
+            <div class="radio">
+                <input type="radio" id="display-inline-block" name="display-property">
+                <label for="display-inline-block">display: inline-block</label>
+            </div>
         </fieldset>
     </section>
+
+
+
+
+
 
     <script type="text/javascript">
         document.getElementById('display-inline').addEventListener('click', function (e) {

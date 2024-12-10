@@ -1,14 +1,16 @@
 .display-prop {
     color: #FFF;
+    text-align: center;
+    word-spacing: -1ch;
 }
 
 .display-prop-item {
     display: block;
     width: 33.333%;
     height: 50px;
-    padding-top: 5px;
+    align-content: center;
     font-weight: 300;
-    font-size: 14px
+    font-size: 14px;
 }
 
 .display-prop-item.-first {
@@ -17,8 +19,11 @@
 
 .display-prop-item.-second {
     background-color: #7C5E99;
+    margin-left: auto;
+    margin-right: auto;
 }
 
 .display-prop-item.-third {
     background-color: #4C5B84;
+    margin-left: auto;
 }

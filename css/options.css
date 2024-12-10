@@ -1,9 +1,7 @@
 .options {
-    display: inline-block;
-    padding-top: 15px;
-    width: 33.333%;
     font-size: 12px;
     font-weight: 100;
-    color: #D8D827;
     line-height: 20px;
+    color: #D8D827;
+    margin-top: 25px;
 }

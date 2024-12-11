@@ -12,6 +12,7 @@
     <link rel="stylesheet" href="css/main.css">
     <link rel="stylesheet" href="css/title.css">
     <link rel="stylesheet" href="css/code.css">
+    <link rel="stylesheet" href="css/prop-changed.css">
     <link rel="stylesheet" href="css/options.css">
     <link rel="stylesheet" href="css/display-prop.css">
 </head>
@@ -26,12 +27,14 @@
     </section>
 
     <section class="sample" title="Display Property Sample">
-        <pre class="css-formatted">
-            <code>.display-prop-item {</code>
-            <code class="code">display: block;</code>
-            <code class="code">width: 33.333%;</code>
-            <code class="code">height: 50px;</code>
-            <code>}</code>
+        <pre class="code">
+            <code>
+    .display-prop-item {
+        display: <span id="display-prop-changed" class="prop-changed">block</span>;
+        width: 33.12%;
+        height: 50px;
+    }
+            </code>
         </pre>
         <fieldset class="options">
             <legend>select a display property</legend>

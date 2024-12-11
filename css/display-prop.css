@@ -1,12 +1,12 @@
 .display-prop {
     color: #FFF;
     text-align: center;
-    word-spacing: -1ch;
+    height: 150px;
 }
 
 .display-prop-item {
     display: block;
-    width: 33.333%;
+    width: 33.12%;
     height: 50px;
     align-content: center;
     font-weight: 300;

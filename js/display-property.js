@@ -6,6 +6,7 @@ radios.forEach(radio => {
 
         Array.prototype.forEach.call(changes, function (change) {
             change.style.setProperty('display', e.target.value);
+            document.getElementById('display-prop-changed').innerText = e.target.value;
         });
     });
 });

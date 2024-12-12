@@ -5,7 +5,7 @@
 }
 
 .display-prop-item {
-    display: block;
+    display: inline;
     width: 32.5%;
     height: 50px;
     align-content: center;

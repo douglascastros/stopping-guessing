@@ -2,3 +2,21 @@ body {
     background-color: #3A4042;
     font-family: 'Fira Code', Arial, Helvetica, sans-serif;
 }
+
+.slide-down {
+    animation: slide-bottom-normal 1s ease 0s 1 normal none;
+}
+
+@keyframes slide-bottom-normal {
+    0% {
+        transform: translateY(100px);
+    }
+
+    100% {
+        transform: translateY(0);
+    }
+}
+
+.slide-bottom-normal {
+    animation: slide-bottom-normal 1s ease 0s 1 normal none;
+}

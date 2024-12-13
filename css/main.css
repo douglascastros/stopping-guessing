@@ -9,7 +9,7 @@ body {
 
 @keyframes slide-bottom-normal {
     0% {
-        transform: translateY(100px);
+        transform: translateY(35px);
     }
 
     100% {

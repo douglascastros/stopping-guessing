@@ -29,33 +29,39 @@
     </section>
 
     <section class="sample" title="Display Property Sample">
-        <p class="code-content">
+        <div class="code-content">
             <code class="code">.display-prop-item {</code>
             <code class="code -lf-1">display: <span id="display-prop-changed" class="prop-changed">block</span>;</code>
             <code class="code -lf-1">width: 32.5%;</code>
             <code class="code -lf-1">height: 50px;</code>
             <code class="code">}</code>
-        </p>
-        <fieldset class="options">
-            <legend>select a display property</legend>
-            <div class="radio">
-                <input type="radio" id="display-block" name="display-property" value="block" checked>
-                <label for="display-block">display: block</label>
-            </div>
-            <div class="radio">
-                <input type="radio" id="display-inline" name="display-property" value="inline">
-                <label for="display-inline">display: inline</label>
-            </div>
-            <div class="radio">
-                <input type="radio" id="display-inline-block" name="display-property" value="inline-block">
-                <label for="display-inline-block">display: inline-block</label>
-            </div>
-        </fieldset>
-        <p id="text-explaining" class="text-explaining">
-            Lorem ipsum dolor sit amet consectetur adipisicing elit. Dignissimos tempora excepturi vel molestias facere
-            voluptate, explicabo fugit veniam, dolor reiciendis iusto nobis vero voluptatibus porro. Eligendi nesciunt
-            et voluptate ipsum.
-        </p>
+        </div>
+
+        <div class="options">
+            <fieldset>
+                <legend>select a display property</legend>
+                <div class="radio">
+                    <input type="radio" id="display-block" name="display-property" value="block" checked>
+                    <label for="display-block">display: block</label>
+                </div>
+                <div class="radio">
+                    <input type="radio" id="display-inline" name="display-property" value="inline">
+                    <label for="display-inline">display: inline</label>
+                </div>
+                <div class="radio">
+                    <input type="radio" id="display-inline-block" name="display-property" value="inline-block">
+                    <label for="display-inline-block">display: inline-block</label>
+                </div>
+            </fieldset>
+        </div>
+
+        <div class="text-explaining">
+            <p id="text-explaining">
+                Lorem ipsum dolor sit amet consectetur adipisicing elit. Dignissimos tempora excepturi vel molestias
+                facere voluptate, explicabo fugit veniam, dolor reiciendis iusto nobis vero voluptatibus porro. Eligendi
+                nesciunt et voluptate ipsum.
+            </p>
+        </div>
     </section>
 
     <script type="text/javascript" src="js/display-property.js"></script>

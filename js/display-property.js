@@ -11,6 +11,18 @@ radios.forEach(radio => {
             setTimeout(function () { change.classList.add('slide-down'); });
 
             document.getElementById('display-prop-changed').innerText = e.target.value;
+
+            let textExplaining = document.getElementById('text-explaining');
+            if (e.target.value === 'block') {
+                textExplaining.innerHTML = `
+                    all width of screen is reserved to element, even if that him width be minor that screen width size.`;
+            }
+            else {
+                textExplaining.innerHTML = `
+                    Lorem ipsum dolor sit amet consectetur adipisicing elit. Dignissimos tempora excepturi vel molestias facere
+                    voluptate, explicabo fugit veniam, dolor reiciendis iusto nobis vero voluptatibus porro. Eligendi nesciunt
+                    et voluptate ipsum.`;
+            }
         });
     });
 });

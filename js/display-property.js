@@ -14,14 +14,10 @@ radios.forEach(radio => {
 
             let textExplaining = document.getElementById('text-explaining');
             if (e.target.value === 'block') {
-                textExplaining.innerHTML = `
-                    all width of screen is reserved to element, even if that him width be minor that screen width size.`;
+                textExplaining.innerHTML = `the element fills the entire horizontal size of the screen, even if its width is smaller than the screen width. you cannot place elements side by side, but you can set width and height.`;
             }
             else {
-                textExplaining.innerHTML = `
-                    Lorem ipsum dolor sit amet consectetur adipisicing elit. Dignissimos tempora excepturi vel molestias facere
-                    voluptate, explicabo fugit veniam, dolor reiciendis iusto nobis vero voluptatibus porro. Eligendi nesciunt
-                    et voluptate ipsum.`;
+                textExplaining.innerHTML = `Lorem ipsum dolor sit amet consectetur adipisicing elit. Dignissimos tempora excepturi vel molestias facere voluptate, explicabo fugit veniam, dolor reiciendis iusto nobis vero voluptatibus porro. Eligendi nesciunt et voluptate ipsum.`;
             }
         });
     });

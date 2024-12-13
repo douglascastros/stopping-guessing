@@ -3,7 +3,7 @@
     font-weight: 100;
     line-height: 20px;
     color: #D8D827;
-    width: 33%;
+    width: 33.333%;
+    padding-left: 20px;
     text-align: justify;
-    border: #D8D827 solid 1px;
 }

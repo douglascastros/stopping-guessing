@@ -1,8 +1,16 @@
-.code {
+.code-content {
     font-size: 12px;
     font-weight: 100;
     line-height: 20px;
     color: #D8D827;
-    width: 33%;
-    border: #D8D827 solid 1px;
+    width: 33.333%;
+    padding-left: 20px;
+}
+
+.code {
+    display: block;
+}
+
+.code.-lf-1 {
+    padding-left: 20px;
 }

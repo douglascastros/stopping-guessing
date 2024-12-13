@@ -1,6 +1,7 @@
 .display-prop {
     color: #FFF;
     text-align: center;
+    align-content: center;
     height: 150px;
 }
 

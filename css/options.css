@@ -3,6 +3,7 @@
     font-weight: 100;
     line-height: 20px;
     color: #D8D827;
-    padding-left: 30px;
-    height: 150px;
+    width: 33%;
+    margin-top: -9px;
+    border: #D8D827 solid 1px;
 }

@@ -14,3 +14,5 @@ radios.forEach(radio => {
         });
     });
 });
+
+document.getElementById('display-block').click();

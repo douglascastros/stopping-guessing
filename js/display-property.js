@@ -1,11 +1,11 @@
-const radios = document.getElementsByName('display-property');
+const options = document.getElementsByName('display-property');
 
-radios.forEach(radio => {
-    radio.addEventListener('click', function (e) {
-        const changes = document.getElementsByClassName('display-prop-item');
+options.forEach(option => {
+    option.addEventListener('click', function (e) {
+        const items = document.getElementsByClassName('display-prop-item');
 
-        Array.prototype.forEach.call(changes, function (change) {
-            change.style.setProperty('display', e.target.value);
+        Array.prototype.forEach.call(items, function (item) {
+            item.style.setProperty('display', e.target.value);
             document.getElementById('display-prop-changed').innerText = e.target.value;
 
             const textExplaining = document.getElementById('text-explaining');

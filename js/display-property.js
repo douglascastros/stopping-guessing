@@ -12,8 +12,11 @@ options.forEach(option => {
             if (e.target.value === 'block') {
                 textExplaining.innerHTML = `the element fills the entire horizontal size of the screen, even if its width is smaller than the screen width. you cannot place elements side by side, but you can set width and height.`;
             }
-            else {
-                textExplaining.innerHTML = `Lorem ipsum dolor sit amet consectetur adipisicing elit. Dignissimos tempora excepturi vel molestias facere voluptate, explicabo fugit veniam, dolor reiciendis iusto nobis vero voluptatibus porro. Eligendi nesciunt et voluptate ipsum.`;
+            else if (e.target.value === 'inline') {
+                textExplaining.innerHTML = `the element has word behavior and its width and height cannot be set, but it is possible to place it side by side with other elements. the behavior of the word implies that there are spaces between the elements.`;
+            }
+            else if (e.target.value === `inline-block`) {
+                textExplaining.innerHTML = `the element has the behavior of a word and can be positioned side by side with other elements and also define its width and height.`;
             }
 
             const slideDown = document.getElementsByClassName('display-prop')[0];

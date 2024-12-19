@@ -1,0 +1,26 @@
+.float-prop {
+    color: #FFF;
+}
+
+.float-prop-item {
+    width: 300px;
+    height: 50px;
+    text-align: center;
+    align-content: center;
+}
+
+.float-prop-item.-first {
+    background-color: #F25A70;
+}
+
+.float-prop-item.-second {
+    background-color: #7C5E99;
+}
+
+.float-prop p {
+    margin-top: 10px;
+    font-size: 12px;
+    font-weight: 100;
+    line-height: 20px;
+    color: #D8D827;
+}

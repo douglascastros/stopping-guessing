@@ -68,29 +68,25 @@
         <div class="float-prop-item -second">.float-prop-item -second</div>
     </section>
 
-    <section class="sample" title="Display Property Sample">
+    <section class="sample" title="Float Property Sample">
         <div class="code-content">
-            <code class="code">.display-prop-item {</code>
-            <code class="code -lf-1">display: <span id="display-prop-changed" class="prop-changed">block</span>;</code>
-            <code class="code -lf-1 -decoration">width: 32.5%;</code>
-            <code class="code -lf-1 -decoration">height: 50px;</code>
+            <code class="code">.float-prop-item <span class="prop-changed">-first</span> {</code>
+            <code class="code -lf-1">width: 250px;</code>
+            <code class="code -lf-1">float: <span id="float-prop-changed" class="prop-changed">none</span>;</code>
             <code class="code">}</code>
         </div>
 
         <div class="options">
             <fieldset>
-                <legend>select a display property</legend>
+                <legend>select a float value for the <span class="prop-changed">first</span> item</legend>
                 <div class="radio">
-                    <input type="radio" id="display-block" name="display-property" value="block" checked>
-                    <label for="display-block">display: block</label>
-                </div>
-                <div class="radio">
-                    <input type="radio" id="display-inline" name="display-property" value="inline">
-                    <label for="display-inline">display: inline</label>
-                </div>
-                <div class="radio">
-                    <input type="radio" id="display-inline-block" name="display-property" value="inline-block">
-                    <label for="display-inline-block">display: inline-block</label>
+                    <div class="radio"><input type="radio" id="float-none" name="float-property" value="none" checked>
+                        <label for="float-none">float: none</label>
+                    </div>
+                    <div class="radio">
+                        <input type="radio" id="float-left" name="float-property" value="left">
+                        <label for="float-left">float: left</label>
+                    </div>
                 </div>
             </fieldset>
         </div>
@@ -101,6 +97,7 @@
     </section>
 
     <script type="text/javascript" src="js/display-property.js"></script>
+    <script type="text/javascript" src="js/float-property.js"></script>
 </body>
 
 </html>

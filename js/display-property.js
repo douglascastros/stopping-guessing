@@ -1,6 +1,6 @@
-const options = document.getElementsByName('display-property');
+const optionsDisplay = document.getElementsByName('display-property');
 
-options.forEach(option => {
+optionsDisplay.forEach(option => {
     option.addEventListener('click', function (e) {
         const items = document.getElementsByClassName('display-prop-item');
 

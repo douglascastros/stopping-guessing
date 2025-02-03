@@ -8,11 +8,13 @@
     font-weight: 300;
     font-size: 14px;
     line-height: 50px;
-    text-align: center;
+    text-align: left;
+    padding-left: 10px;
 }
 
 .float-prop-item.-first {
     background-color: #7C5E99;
+    width: 250px;
 }
 
 .float-prop-item.-second {

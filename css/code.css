@@ -16,3 +16,7 @@
 .code.-lf-1 {
     padding-left: 70px;
 }
+
+.code.-lf-1.-decoration {
+    text-decoration: none;
+}

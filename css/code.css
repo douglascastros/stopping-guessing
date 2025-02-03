@@ -5,17 +5,15 @@
     font-weight: 100;
     line-height: 20px;
     color: #D8D827;
-    width: 33.333%;
-    margin-left: -10px;
+    width: 250px;
 }
 
 .code {
     display: block;
-    padding-left: 50px;
 }
 
 .code.-lf-1 {
-    padding-left: 70px;
+    padding-left: 20px;
 }
 
 .code.-lf-1.-decoration {

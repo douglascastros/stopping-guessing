@@ -5,14 +5,5 @@
     font-weight: 100;
     line-height: 20px;
     color: #D8D827;
-    width: 33.333%;
-    margin-left: -10px;
-}
-
-.options legend {
-    padding-left: 50px;
-}
-
-.options .radio {
-    padding-left: 50px;
+    width: 250px;
 }

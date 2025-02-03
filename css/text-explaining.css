@@ -5,12 +5,9 @@
     font-weight: 100;
     line-height: 20px;
     color: #D8D827;
-    width: 33.333%;
-    margin-left: -10px;
+    width: 500px;
 }
 
 .text-explaining p {
-    padding-left: 50px;
-    padding-right: 50px;
     text-align: justify;
 }

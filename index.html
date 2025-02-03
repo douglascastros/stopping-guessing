@@ -66,10 +66,38 @@
     <section class="float-prop" title="Float Property">
         <div class="float-prop-item -first">.float-prop-item -first</div>
         <div class="float-prop-item -second">.float-prop-item -second</div>
-        <p>
-            Lorem ipsum dolor sit amet consectetur adipisicing elit. Maiores minima doloribus ad dolore sed nihil iste
-            ratione consequatur tenetur vel magni eius alias eos placeat, optio dolorum nemo voluptas corrupti.
-        </p>
+    </section>
+
+    <section class="sample" title="Display Property Sample">
+        <div class="code-content">
+            <code class="code">.display-prop-item {</code>
+            <code class="code -lf-1">display: <span id="display-prop-changed" class="prop-changed">block</span>;</code>
+            <code class="code -lf-1 -decoration">width: 32.5%;</code>
+            <code class="code -lf-1 -decoration">height: 50px;</code>
+            <code class="code">}</code>
+        </div>
+
+        <div class="options">
+            <fieldset>
+                <legend>select a display property</legend>
+                <div class="radio">
+                    <input type="radio" id="display-block" name="display-property" value="block" checked>
+                    <label for="display-block">display: block</label>
+                </div>
+                <div class="radio">
+                    <input type="radio" id="display-inline" name="display-property" value="inline">
+                    <label for="display-inline">display: inline</label>
+                </div>
+                <div class="radio">
+                    <input type="radio" id="display-inline-block" name="display-property" value="inline-block">
+                    <label for="display-inline-block">display: inline-block</label>
+                </div>
+            </fieldset>
+        </div>
+
+        <div class="text-explaining">
+            <p id="text-explaining"></p>
+        </div>
     </section>
 
     <script type="text/javascript" src="js/display-property.js"></script>

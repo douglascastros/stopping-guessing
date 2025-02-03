@@ -1,5 +1,5 @@
 .float-prop {
-    color: #3A4042;
+    color: #FFF;
 }
 
 .float-prop-item {
@@ -12,12 +12,11 @@
 }
 
 .float-prop-item.-first {
-    background-color: #F25A70;
-    float: left;
+    background-color: #7C5E99;
 }
 
 .float-prop-item.-second {
-    background-color: #7C5E99;
+    background-color: #F25A70;
 }
 
 .float-prop p {

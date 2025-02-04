@@ -10,12 +10,15 @@ optionsFloat.forEach(option => {
 
             const sectionFloatProp = document.getElementsByClassName('float-prop')[0];
             const floatPropItemSecond = document.getElementById('floatSecond');
+            const textExplaining = document.getElementById('text-explaining-float');
 
             if (e.target.value === 'none') {
                 sectionFloatProp.style.setProperty('padding-bottom', '0');
+                textExplaining.innerHTML = `none`;
             }
             else if (e.target.value === 'left') {
                 sectionFloatProp.style.setProperty('padding-bottom', '50px');
+                textExplaining.innerHTML = `left`;
             }
 
             const slideDown = document.getElementsByClassName('float-prop')[0];

@@ -8,7 +8,7 @@ optionsDisplay.forEach(option => {
             item.style.setProperty('display', e.target.value);
             document.getElementById('display-prop-changed').innerText = e.target.value;
 
-            const textExplaining = document.getElementById('text-explaining');
+            const textExplaining = document.getElementById('text-explaining-display');
             const decorationProps = document.getElementsByClassName('-decoration');
 
             if (e.target.value === 'block') {

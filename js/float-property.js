@@ -14,11 +14,11 @@ optionsFloat.forEach(option => {
 
             if (e.target.value === 'none') {
                 sectionFloatProp.style.setProperty('padding-bottom', '0');
-                textExplaining.innerHTML = `none`;
+                textExplaining.innerHTML = ``;
             }
             else if (e.target.value === 'left') {
                 sectionFloatProp.style.setProperty('padding-bottom', '50px');
-                textExplaining.innerHTML = `left`;
+                textExplaining.innerHTML = `the float effect puts elements in a context ahead, so elements from the original context take the place of elements that went to the higher context, but their text did not.`;
             }
 
             const slideDown = document.getElementsByClassName('float-prop')[0];

@@ -74,18 +74,45 @@
             <code class="code -lf-1">width: 250px;</code>
             <code class="code -lf-1">float: <span id="float-prop-changed" class="prop-changed">none</span>;</code>
             <code class="code">}</code>
+            <code class="code">.float-prop-item <span class="prop-changed">-second</span> {</code>
+            <code class="code -lf-1">width: 300px;</code>
+            <code
+                class="code -lf-1">float: <span id="float-prop-changed-second" class="prop-changed">none</span>;</code>
+            <code class="code">}</code>
         </div>
 
         <div class="options">
             <fieldset>
                 <legend>select a float value for the <span class="prop-changed">first</span> item</legend>
                 <div class="radio">
-                    <div class="radio"><input type="radio" id="float-none" name="float-property" value="none" checked>
+                    <div class="radio">
+                        <input type="radio" id="float-none" name="float-property" value="none" checked>
                         <label for="float-none">float: none</label>
                     </div>
                     <div class="radio">
                         <input type="radio" id="float-left" name="float-property" value="left">
                         <label for="float-left">float: left</label>
+                    </div>
+                    <div class="radio">
+                        <input type="radio" id="float-right" name="float-property" value="right">
+                        <label for="float-right">float: right</label>
+                    </div>
+                </div>
+            </fieldset>
+            <fieldset class="fieldset">
+                <legend>select a float value for the <span class="prop-changed">second</span> item</legend>
+                <div class="radio">
+                    <div class="radio">
+                        <input type="radio" id="float-none-second" name="float-property-second" value="none" checked>
+                        <label for="float-none-second">float: none</label>
+                    </div>
+                    <div class="radio">
+                        <input type="radio" id="float-left-second" name="float-property-second" value="left">
+                        <label for="float-left-second">float: left</label>
+                    </div>
+                    <div class="radio">
+                        <input type="radio" id="float-right-second" name="float-property-second" value="right">
+                        <label for="float-right-second">float: right</label>
                     </div>
                 </div>
             </fieldset>

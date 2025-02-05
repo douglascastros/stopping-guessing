@@ -5,5 +5,9 @@
     font-weight: 100;
     line-height: 20px;
     color: #D8D827;
-    width: 300px;
+    width: 310px;
+}
+
+.fieldset {
+    margin-top: 20px;
 }

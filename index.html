@@ -18,6 +18,7 @@
     <link rel="stylesheet" href="css/text-explaining.css">
     <link rel="stylesheet" href="css/display-prop.css">
     <link rel="stylesheet" href="css/float-prop.css">
+    <link rel="stylesheet" href="css/position-prop.css">
 </head>
 
 <body>
@@ -40,7 +41,7 @@
 
         <div class="options">
             <fieldset>
-                <legend>select a display property</legend>
+                <legend>select a display value for the items</legend>
                 <div class="radio">
                     <input type="radio" id="display-block" name="display-property" value="block" checked>
                     <label for="display-block">display: block</label>
@@ -71,7 +72,7 @@
     <section class="sample" title="Float Property Sample">
         <div class="code-content">
             <code class="code">.float-prop-item <span class="prop-changed">-first</span> {</code>
-            <code class="code -lf-1">width: 250px;</code>
+            <code class="code -lf-1">width: 410px;</code>
             <code class="code -lf-1">float: <span id="float-prop-changed" class="prop-changed">none</span>;</code>
             <code class="code">}</code>
         </div>
@@ -80,18 +81,16 @@
             <fieldset>
                 <legend>select a float value for the <span class="prop-changed">first</span> item</legend>
                 <div class="radio">
-                    <div class="radio">
-                        <input type="radio" id="float-none" name="float-property" value="none" checked>
-                        <label for="float-none">float: none</label>
-                    </div>
-                    <div class="radio">
-                        <input type="radio" id="float-left" name="float-property" value="left">
-                        <label for="float-left">float: left</label>
-                    </div>
-                    <div class="radio">
-                        <input type="radio" id="float-right" name="float-property" value="right">
-                        <label for="float-right">float: right</label>
-                    </div>
+                    <input type="radio" id="float-none" name="float-property" value="none" checked>
+                    <label for="float-none">float: none</label>
+                </div>
+                <div class="radio">
+                    <input type="radio" id="float-left" name="float-property" value="left">
+                    <label for="float-left">float: left</label>
+                </div>
+                <div class="radio">
+                    <input type="radio" id="float-right" name="float-property" value="right">
+                    <label for="float-right">float: right</label>
                 </div>
             </fieldset>
         </div>
@@ -101,8 +100,44 @@
         </div>
     </section>
 
+    <h2 class="title">Position Property</h2>
+
+    <section class="position-prop" title="Position Property">
+        <div class="position-prop-item -first">.position-prop-item -first</div>
+        <div class="position-prop-item -second">.position-prop-item -second</div>
+    </section>
+
+    <section class="sample" title="Position Porperty Sample">
+        <div class="code-content">
+            <code class="code">.position-prop-item <span class="prop-changed">-first</span> {</code>
+            <code
+                class="code -lf-1">position: <span id="position-prop-changed" class="prop-changed">static</span>;</code>
+            <code class="code -lf-1 -decoration">top: 40px;</code>
+            <code class="code">}</code>
+        </div>
+
+        <div class="options">
+            <fieldset>
+                <legend>select a position value for the <span class="prop-changed">first</span> item</legend>
+                <div class="radio">
+                    <input type="radio" id="position-static" name="position-property" value="static" checked>
+                    <label for="position-static">position: static</label>
+                </div>
+                <div class="radio">
+                    <input type="radio" id="position-relative" name="position-property" value="relative">
+                    <label for="position-relative">position: relative</label>
+                </div>
+            </fieldset>
+        </div>
+
+        <div class="text-explaining">
+            <p id="text-explaining-position"></p>
+        </div>
+    </section>
+
     <script type="text/javascript" src="js/display-property.js"></script>
     <script type="text/javascript" src="js/float-property.js"></script>
+    <script type="text/javascript" src="js/position-property.js"></script>
 </body>
 
 </html>

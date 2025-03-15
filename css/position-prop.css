@@ -1,0 +1,23 @@
+.position-prop {
+    color: #FFF;
+    height: 100px;
+}
+
+.position-prop-item {
+    width: 470px;
+    height: 50px;
+    font-weight: 300;
+    font-size: 14px;
+    line-height: 50px;
+    text-align: center;
+    position: static;
+}
+
+.position-prop-item.-first {
+    background-color: #F25A70;
+    top: 40px;
+}
+
+.position-prop-item.-second {
+    background-color: #7C5E99;
+}
